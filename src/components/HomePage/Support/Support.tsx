@@ -15,12 +15,12 @@ function Support() {
     <section className=" bg-[#030C14] w-full overflow-hidden">
       <div className=" bg-[#030C14] w-full text-white md:py-24 py-14 pl-8 lg:pr-0 pr-8 flex   justify-between rounded-b-[50px] gap-16 relative ">
         <div
-          className="bg-no-repeat bg-contain bg-center lg:!bg-none"
+          className="bg-no-repeat bg-contain bg-center lg:!bg-none min-[1200px]:flex-[0_0_45%]"
           style={{
             backgroundImage: `url(${Ipad.src})`,
           }}
         >
-          <div className="flex flex-col min-[1200px]:flex-[0_0_45%] gap-36  justify-between bg-[#030C14]/10 backdrop-blur-sm lg:bg-none ">
+          <div className="flex flex-col  gap-36  justify-between bg-[#030C14]/10 backdrop-blur-sm lg:bg-none ">
             <div>
               <div className=" max-w-max">
                 <SecondaryButton
